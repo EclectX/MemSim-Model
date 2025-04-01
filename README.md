@@ -4,8 +4,8 @@ This repository presents a technology-specific, realistic memristor behavioral m
 2. Inkjet-printed electrochemical metallization (ECM) memristors
  
 The model parameters have been extracted from experiments and are listed in:
-* Table I [see Gulafshan et al., 2025](#bibtex-citation) for nominal values (traditional approach)
-* Table II [see Gulafshan et al., 2025](#bibtex-citation) for variation-aware parameters (the proposed approach)
+* Table I ([see Gulafshan et al., 2025](#bibtex-citation)) for nominal values (traditional approach)
+* Table II ([see Gulafshan et al., 2025](#bibtex-citation)) for variation-aware parameters (the proposed approach)
 
 We provide a total of four fitted model files, categorized as follows:
 
