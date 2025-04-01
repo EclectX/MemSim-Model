@@ -69,4 +69,4 @@ For detailed information, check out the full article on **Nature Communications*
     title = {Realistic Behavioral Model for ReRAMs Capturing Non-Idealities},
     journal = {Nature Communications},
     year = {2025}
-}```
+}
