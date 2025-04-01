@@ -1,24 +1,25 @@
 # MemSim+: A Realistic Behavioral Model for ReRAMs Capturing Non-Idealities
-This repository presents a technology-specific, realistic memristor behavioral model that incorporates key non-idealities, including: Cycle-to-cycle and device-to-device resistance variations, threshold voltage variations, resistance drift in the absence of external stimuli, and variations in switching dynamics. The developed SPICE model is implemented in LTSpice and has been fitted to experimental data from two different types of memristors:
+This repository presents a technology-specific, realistic memristor behavioral model that incorporates key non-idealities, including cycle-to-cycle and device-to-device resistance variations, threshold voltage variations, resistance drift in the absence of external stimuli, and variations in switching dynamics. The developed SPICE model is implemented in LTSpice and has been fitted to experimental data from two different types of memristors:
 1. Vacuum-processed self-directed channel (SDC) memristors
-2. Inkjet-printed electrochemical metallization (ECM) memristors<br />   
-The model parameters have been extracted from experiments and are listed in: 
-* Table I for nominal values (traditional approach)
-* Table II for variation-aware parameters (the proposed approach)<br />
+2. Inkjet-printed electrochemical metallization (ECM) memristors
 
-We provide a total of four fitted model files, categorized as follows: 
+The model parameters have been extracted from experiments and are listed in:
+* Table I for nominal values (traditional approach)
+* Table II for variation-aware parameters (the proposed approach)
+
+We provide a total of four fitted model files, categorized as follows:
 
 **MemSim+ Nominal Model**  
-1. `SDC_nominal` (for SDC memristors)  
-2. `ECM_nominal` (for ECM memristors)  
+1. `SDC_nominal`  
+2. `ECM_nominal`  
 
 **MemSim+ Variability-Aware Model**  
-3. `SDC_variation` (for SDC memristors)  
-4. `ECM_variation` (for ECM memristors)
-    
+3. `SDC_variation`  
+4. `ECM_variation`
+
 Each folder contains two essential files:
-1. **`.asc` file** – Contains the schematic where the obtained parameters from Table I and Table II are applied for the specific technology. 
-2. **`.asy` file** – Represents the symbol generated from the schematic.  <br />
+1. **`.asc` file** – Contains the schematic where the obtained parameters from Table I and Table II are applied for the specific technology.
+2. **`.asy` file** – Represents the symbol generated from the schematic.
 
 ## MemSim+: How to Use
 If you don't have LTSpice installed on your system, you can download and install it from [Analog Devices LTSpice Simulator](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html). <br /> 
