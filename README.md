@@ -61,7 +61,7 @@ To analyze the exported `.txt` file, a **MATLAB script** is provided to **plot t
 The MATLAB screenshot above displays the histogram of the output data for the input combination '10'. In the top right corner, the **Workspace** stores the output logical state according to the corresponding logical mapping schemes. For input '10', the FELIX-OR gate should output 1. In Logical Mapping I, ´LM1_high` stores 92 representing the high logical value, while `LM1_low` represents the low logical value. This indicates that out of 100 runs, the circuit operated correctly 92 times.
 The MATLAB script includes detailed comments explaining each step. Additionally, users can **customize their own logical mapping scheme** by adjusting the voltage ranges that define **low logic** and **high logic** states. This allows for flexibility in adapting the analysis based on different threshold levels for logic classification.
 ## Citation and More Information
-For detailed information, check out the full article on **Nature Communications** along with the **Supplementary Information**. If you find this project useful, please star this repository ⭐ and cite the article.
+For detailed information, check out the full article on **Communications Materials** along with the **Supplementary Information**. If you find this project useful, please star this repository ⭐ and cite the article.
 
 ```bibtex
 @article{gulafshan2025realistic,
