@@ -67,6 +67,6 @@ For detailed information, check out the full article on **Nature Communications*
 @article{gulafshan2025realistic,
     author = {Gulafshan,G., Hu, H., Radakovits, D. et al.},
     title = {Realistic Behavioral Model for ReRAMs Capturing Non-Idealities},
-    journal = {Nature Communications},
+    journal = {Communications Materials},
     year = {2025}
 }
