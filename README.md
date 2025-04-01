@@ -46,7 +46,7 @@ Now, set the state of the output memristor to **HRS** for FELIX-OR gate by setti
 - **('10') LRS and HRS** → `w_init=3n` and `w_init=0n`
 - **('11') LRS and LRS** → `w_init=3n` and `w_init=3n`<br /> 
  ![image](https://github.com/user-attachments/assets/7bb88405-f0e8-4556-9408-8dd1b2d91073)<br /> 
-The final circuit for the FELIX-OR gate resembles the figure above, and this schematic is ready for simulation with the input combination `01` by clicking **Run**. The schematic simulates the circuit 100 times, which can be modified by changing the command line in the schematic to `.step param run 1 100 1'.  You can then plot the output voltage of the **s** terminal of **out** memristor and view the results in the waveform.<br /> 
+The final circuit for the FELIX-OR gate resembles the figure above, and this schematic is ready for simulation with the input combination `01` by clicking **Run**. The schematic simulates the circuit 100 times, which can be modified by changing the command line in the schematic to `.step param run 1 100 1´.  You can then plot the output voltage of the **s** terminal of **out** memristor and view the results in the waveform.<br /> 
 Since quantifying the output directly from the waveform can be difficult as can be seen from below figure, the output data can be exported as a `.txt` file.![image](https://github.com/user-attachments/assets/ea9b8c5d-8817-42d6-8a04-26b5edd362df)<br /> 
  To do this:
 1. Left-click on the waveform window.
