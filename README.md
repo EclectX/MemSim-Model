@@ -2,10 +2,11 @@
 This repository presents a technology-specific, realistic memristor behavioral model that incorporates key non-idealities, including cycle-to-cycle and device-to-device resistance variations, threshold voltage variations, resistance drift in the absence of external stimuli, and variations in switching dynamics. The developed SPICE model is implemented in LTSpice and has been fitted to experimental data from two different types of memristors:
 1. Vacuum-processed self-directed channel (SDC) memristors
 2. Inkjet-printed electrochemical metallization (ECM) memristors
-
+ 
 The model parameters have been extracted from experiments and are listed in:
-* Table I for nominal values (traditional approach) [see Gulafshan et al., 2025](#bibtex-citation)
-* Table II for variation-aware parameters (the proposed approach) [see Gulafshan et al., 2025](#bibtex-citation)
+* Table I [see Gulafshan et al., 2025](#bibtex-citation) for nominal values (traditional approach)
+* Table II [see Gulafshan et al., 2025](#bibtex-citation) for variation-aware parameters (the proposed approach)
+
 We provide a total of four fitted model files, categorized as follows:
 
 **MemSim+ Nominal Model**  
@@ -68,4 +69,4 @@ For detailed information, check out the full article on **Nature Communications*
     title = {Realistic Behavioral Model for ReRAMs Capturing Non-Idealities},
     journal = {Nature Communications},
     year = {2025}
-}
+}```
