@@ -31,8 +31,10 @@ If you don't have LTSpice installed on your system, you can download and install
 * Select the memristor (c) and click OK.<br /> 
 ![GetMemristor](https://github.com/user-attachments/assets/7018be2b-0415-456c-b32a-d1986e781fd7)<br /> 
 5. Once the components are placed, you are ready to simulate your circuit.<br />
+
 <figcaption >Figure 1: Example Waveform (SSAx1) with a deviation of &plusmn;20% </figcaption>
 <img alt="waveform" src="./Images/git_1.png"/>
+
 ### Example Circuit:
 To demonstrate how the simulation process works, an example circuit is provided in the **FELIX_variation_SDC** folder. This folder contains:
 1. **`Felix_variation.asc`** – The schematic daigram of FELIX-OR gate.
