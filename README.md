@@ -54,7 +54,10 @@ Now, set the state of the output memristor to **HRS** for FELIX-OR gate by setti
   <img alt="waveform" src="./Images/git_2.png"/>
   
 The final circuit for the FELIX-OR gate resembles the figure above, and this schematic is ready for simulation with the input combination `01` by clicking **Run**. The schematic simulates the circuit 100 times, which can be modified by changing the command line in the schematic to `.step param run 1 100 1`.  You can then plot the output voltage of the **s** terminal of **out** memristor and view the results in the waveform.<br /> 
-Since quantifying the output directly from the waveform can be difficult as can be seen from below figure, the output data can be exported as a `.txt` file.![image](https://github.com/user-attachments/assets/ea9b8c5d-8817-42d6-8a04-26b5edd362df)<br /> 
+Since quantifying the output directly from the waveform can be difficult as can be seen from below figure, the output data can be exported as a `.txt` file.
+
+<img alt="waveform" src="./Images/git_3.png"/>
+
  To do this:
 1. Left-click on the waveform window.
 2. Go to **File** menu on the top left corner and select the option **Export data as txt**.
@@ -64,7 +67,9 @@ To analyze the exported `.txt` file, a **MATLAB script** is provided to **plot t
 - **Logical Mapping II**: Low logic (`0 < s < 0.45`), High logic (`0.55 < s < 1`), stored in `LM2_high`, `LM2_low`
 - **Logical Mapping III**: Low logic (`0 < s < 0.33`), High logic (`0.67 < s < 1`), stored in `LM3_high`, `LM3_low`
 - **Logical Mapping IV**: Low logic (`0 < s < 0.3`), High logic (`0.7 < s < 1`), stored in `LM4_high`, `LM4_low`
-![image](https://github.com/user-attachments/assets/7541499e-4ca3-4d46-8ea0-f9a4f1c4ca5d)<br /> 
+  
+<img alt="waveform" src="./Images/git_4.png"/>
+
 The MATLAB screenshot above displays the histogram of the output data for the input combination '10'. In the top right corner, the **Workspace** stores the output logical state according to the corresponding logical mapping schemes. For input '10', the FELIX-OR gate should output 1. In Logical Mapping I, ´LM1_high` stores 92 representing the high logical value, while `LM1_low` represents the low logical value. This indicates that out of 100 runs, the circuit operated correctly 92 times.
 The MATLAB script includes detailed comments explaining each step. Additionally, users can **customize their own logical mapping scheme** by adjusting the voltage ranges that define **low logic** and **high logic** states. This allows for flexibility in adapting the analysis based on different threshold levels for logic classification.
 ## Citation and More Information
