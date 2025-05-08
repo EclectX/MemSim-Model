@@ -25,7 +25,11 @@ Each folder contains two essential files:
 If you don't have LTSpice installed on your system, you can download and install it from [Analog Devices LTSpice Simulator](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html). <br /> 
 1. Download the desired model folder (`SDC_nominal`, `ECM_nominal`, `SDC_variation`, or `ECM_variation`).
 2. Open **LTSpice**, create a new schematic for your circuit, and save both the circuit and the memristor model files (both .asc and .asy) in the same folder.
-3. To add memristor to the schematic, follow the steps below which is also highlighted in the figure:<br /> 
+3. To add memristor to the schematic, follow the steps below which is also highlighted in the figure:<br />
+
+   <figcaption >Figure 1: Example Waveform (SSAx1) with a deviation of &plusmn;20% </figcaption>
+   <img alt="waveform" src="./Images/git_1.png"/>
+   
 * Click on the component (a) from the SPICE menu.
 * Change the directory path (b) to the location where the model files are saved.
 * Select the memristor (c) and click OK.
