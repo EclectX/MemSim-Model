@@ -27,7 +27,6 @@ If you don't have LTSpice installed on your system, you can download and install
 2. Open **LTSpice**, create a new schematic for your circuit, and save both the circuit and the memristor model files (both .asc and .asy) in the same folder.
 3. To add memristor to the schematic, follow the steps below which is also highlighted in the figure:<br />
 
-   <figcaption >Figure 1: Example Waveform (SSAx1) with a deviation of &plusmn;20% </figcaption>
    <img alt="waveform" src="./Images/git_1.png"/>
    
 * Click on the component (a) from the SPICE menu.
@@ -50,8 +49,10 @@ Now, set the state of the output memristor to **HRS** for FELIX-OR gate by setti
 - **('00') HRS and HRS** → `w_init=0n` and `w_init=0n`
 - **('01') HRS and LRS** → `w_init=0n` and `w_init=3n`
 - **('10') LRS and HRS** → `w_init=3n` and `w_init=0n`
-- **('11') LRS and LRS** → `w_init=3n` and `w_init=3n`<br /> 
- ![image](https://github.com/user-attachments/assets/7bb88405-f0e8-4556-9408-8dd1b2d91073)<br /> 
+- **('11') LRS and LRS** → `w_init=3n` and `w_init=3n`<br />
+
+  <img alt="waveform" src="./Images/git_2.png"/>
+  
 The final circuit for the FELIX-OR gate resembles the figure above, and this schematic is ready for simulation with the input combination `01` by clicking **Run**. The schematic simulates the circuit 100 times, which can be modified by changing the command line in the schematic to `.step param run 1 100 1`.  You can then plot the output voltage of the **s** terminal of **out** memristor and view the results in the waveform.<br /> 
 Since quantifying the output directly from the waveform can be difficult as can be seen from below figure, the output data can be exported as a `.txt` file.![image](https://github.com/user-attachments/assets/ea9b8c5d-8817-42d6-8a04-26b5edd362df)<br /> 
  To do this:
